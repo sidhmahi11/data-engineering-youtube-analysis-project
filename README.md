@@ -3,18 +3,17 @@
 # Overview
 This project focuses on securely managing, streamlining, and analyzing structured and semi-structured YouTube video data based on video categories and trending metrics.
 
-Key Features and Achievements
-Data Ingestion: Built a mechanism to ingest data from multiple sources, including Kaggle datasets containing YouTube video statistics.
+# Key Features and Achievements
+i)Data Ingestion: Built a mechanism to ingest data from multiple sources, including Kaggle datasets containing YouTube video statistics.
+ii)ETL System: Transformed raw data into a structured format using AWS Glue and Python.
 
-ETL System: Transformed raw data into a structured format using AWS Glue and Python.
+iii)Data Lake: Centralized data storage using Amazon S3 for efficient data management.
 
-Data Lake: Centralized data storage using Amazon S3 for efficient data management.
+iv)Scalability: Designed a system that scales with increasing data volumes using AWS services.
 
-Scalability: Designed a system that scales with increasing data volumes using AWS services.
+v)Cloud Integration: Leveraged AWS Lambda, Athena, and Glue for serverless data processing and querying.
 
-Cloud Integration: Leveraged AWS Lambda, Athena, and Glue for serverless data processing and querying.
-
-Reporting: Created an interactive dashboard using Amazon QuickSight to analyze YouTube video trends and metrics.
+vi)Reporting: Created an interactive dashboard using Amazon QuickSight to analyze YouTube video trends and metrics.
 
 Tools and Technologies Used
 AWS Services: S3 (data storage), IAM (access management), Glue (ETL), Lambda (serverless computing), Athena (querying), QuickSight (BI reporting).
